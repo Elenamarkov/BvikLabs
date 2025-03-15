@@ -1,0 +1,113 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "firstName",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "lastName",
+						"type": "string"
+					}
+				],
+				"name": "PersonAdded",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_firstName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_lastName",
+						"type": "string"
+					}
+				],
+				"name": "addPerson",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					}
+				],
+				"name": "getPerson",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".deps/lab2/BasicFunctionality.sol": "PersonRegistry"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".deps/lab2/BasicFunctionality.sol": {
+			"keccak256": "0x1c38e4123e8229002d687c4d436ecaa1d4198c4423cbc351499e597918d8a5c5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://21706d15660b53c193e1eff147b319ecf2f813f98fc25b4b04e8206d52fd36ff",
+				"dweb:/ipfs/QmS5PneZ3P2VQB1AGNcuTVifsPMJMTsPN4m9fPBeCTwnSm"
+			]
+		}
+	},
+	"version": 1
+}
